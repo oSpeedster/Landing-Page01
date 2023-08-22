@@ -6,10 +6,12 @@ window.addEventListener('scroll', () => {
 
     if(window.scrollY <= 100) {
         header.style.backgroundColor = 'rgba(53, 21, 93, 30%)'
+        header.style.borderBottom = '0px'
     } else {
         header.style.transitionProperty = 'all'
         header.style.transitionDuration = '.5s'
         header.style.backgroundColor = 'rgba(53, 21, 93, 95%)'
+        header.style.borderBottom = '1px solid rgba(255, 255, 255, 30%)'
     }
 
 })
