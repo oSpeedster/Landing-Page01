@@ -167,13 +167,15 @@ html {
 }
 
 .tela-venda:hover {
-    transition: 1s;
+
     transform: scale(1.2);
 
 }
 
-#tela-vendaV:hover + #tela-vendaM, #tela-vendaV:hover + #tela-vendaA {
-    opacity: 20%;
+#tela-vendaV, #tela-vendaM, #tela-vendaA {
+
+    transition: 1s;
+
 }
 
 .tela-venda-img {

@@ -13,3 +13,91 @@ window.addEventListener('scroll', () => {
     }
 
 })
+
+
+function hoverV() {
+
+    let V = document.getElementById('tela-vendaV');
+    let M = document.getElementById('tela-vendaM');
+    let A = document.getElementById('tela-vendaA');
+
+    M.style.opacity = '20%'
+    M.style.transform = 'scale(0.8)'
+
+    A.style.opacity = '20%'
+    A.style.transform = 'scale(0.8)'
+
+}
+function outV() {
+    let V = document.getElementById('tela-vendaV');
+    let M = document.getElementById('tela-vendaM');
+    let A = document.getElementById('tela-vendaA');
+
+    M.style.opacity = ''
+    M.style.transform = ''
+
+    A.style.opacity = ''
+    A.style.transform = ''
+}
+
+
+
+
+function hoverM() {
+
+    let V = document.getElementById('tela-vendaV');
+    let M = document.getElementById('tela-vendaM');
+    let A = document.getElementById('tela-vendaA');
+
+    V.style.opacity = '20%'
+    V.style.transform = 'scale(0.8)'
+
+    A.style.opacity = '20%'
+    A.style.transform = 'scale(0.8)'
+    
+}
+
+function outM() {
+    let V = document.getElementById('tela-vendaV');
+    let M = document.getElementById('tela-vendaM');
+    let A = document.getElementById('tela-vendaA');
+
+    V.style.opacity = ''
+    V.style.transform = ''
+
+    A.style.opacity = ''
+    A.style.transform = ''
+}
+
+
+
+
+function hoverA() {
+
+    let V = document.getElementById('tela-vendaV');
+    let M = document.getElementById('tela-vendaM');
+    let A = document.getElementById('tela-vendaA');
+
+    M.style.opacity = '20%'
+    M.style.transform = 'scale(0.8)'
+    M.style.transition = '1s'
+
+    V.style.opacity = '20%'
+    V.style.transform = 'scale(0.8)'
+    V.style.transition = '1s'
+    
+}
+
+function outA() {
+    let V = document.getElementById('tela-vendaV');
+    let M = document.getElementById('tela-vendaM');
+    let A = document.getElementById('tela-vendaA');
+
+    M.style.opacity = ''
+    M.style.transform = ''
+    M.style.transition = ''
+
+    V.style.opacity = ''
+    V.style.transform = ''
+    V.style.transition = ''
+}
