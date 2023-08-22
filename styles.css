@@ -172,7 +172,7 @@ html {
 
 }
 
-.tela-venda:hover #tela-vendaV {
+#tela-vendaV:hover + #tela-vendaM, #tela-vendaV:hover + #tela-vendaA {
     opacity: 20%;
 }
 
