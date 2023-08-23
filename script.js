@@ -112,6 +112,8 @@ function fundo1() {
     let fundo = document.querySelectorAll('.gradient-bg')
     let fundoTodos = document.querySelectorAll('.bg');
     let divToda = document.querySelector('.divtoda');
+
+    let gradient0 = document.querySelectorAll('.gradient-bg0')
     
     fundo.forEach(fundo => {
         fundo.style.height = '0px'
@@ -120,7 +122,11 @@ function fundo1() {
     divToda.style.backgroundImage = ''
     fundoTodos.forEach(fundo => {
         fundo.style.backgroundColor = ''
-      });
+    });
+
+    gradient0.forEach(gradient0 => {
+    gradient0.style.backgroundImage = 'linear-gradient(#749BC2, #749BC2)'
+    });
 
 }
 
@@ -129,13 +135,19 @@ function fundo2() {
     let fundoTodos = document.querySelectorAll('.bg');
     let divToda = document.querySelector('.divtoda');
 
+    let gradient0 = document.querySelectorAll('.gradient-bg0')
     let gradient1 = document.querySelectorAll('.gradient-bg1')
     let gradient2 = document.querySelectorAll('.gradient-bg2')
     let gradient3 = document.querySelectorAll('.gradient-bg3')
+    let gradient4 = document.querySelectorAll('.gradient-bg4')
 
     fundo.forEach(fundo => {
         fundo.style.height = '175px'
     });
+
+    gradient0.forEach(gradient0 => {
+        gradient0.style.backgroundImage = 'linear-gradient(#749BC2, #749BC2)'
+        });
 
     gradient1.forEach(gradient1 => {
     gradient1.style.backgroundImage = 'linear-gradient(#749BC2, rgb(108, 98, 204))'
@@ -146,7 +158,11 @@ function fundo2() {
     });
     
     gradient3.forEach(gradient3 => {
-    gradient3.style.backgroundImage = 'linear-gradient(rgb(108, 98, 204), rgb(53, 21, 93))'
+    gradient3.style.backgroundImage = 'linear-gradient(rgb(108, 98, 204), rgb(0, 0, 128))'
+    });
+
+    gradient4.forEach(gradient4 => {
+    gradient4.style.backgroundImage = 'linear-gradient(rgb(0, 0, 128), rgb(53, 21, 93))'
     });
 
     divToda.style.backgroundColor = ''
@@ -159,8 +175,11 @@ function fundo2() {
 
 function fundo3() {
     let fundo = document.querySelectorAll('.gradient-bg');
+    let fundo2 = document.querySelector('.gradientbg');
     let fundoTodos = document.querySelectorAll('.bg');
     let divToda = document.querySelector('.divtoda');
+
+    fundo2.style.backgroundImage = 'none'
 
     fundoTodos.forEach(fundo => {
         fundo.style.backgroundColor = 'transparent'
@@ -176,8 +195,11 @@ function fundo3() {
 
 function fundo4() {
     let fundo = document.querySelectorAll('.gradient-bg');
+    let fundo2 = document.querySelector('.gradientbg');
     let fundoTodos = document.querySelectorAll('.bg');
     let divToda = document.querySelector('.divtoda');
+
+    fundo2.style.backgroundImage = 'none'
 
     fundoTodos.forEach(fundo => {
         fundo.style.backgroundColor = 'transparent'
@@ -192,5 +214,40 @@ function fundo4() {
 
 }
 
+function gradientBG() {
 
+let gradientBG = document.querySelectorAll('.gradient-bg')
+let gbgPlanos = document.getElementById('gbg-planos') || document.getElementById('planos')
+
+let gradient1 = document.querySelectorAll('.gradient-bg1')
+let gradient2 = document.querySelectorAll('.gradient-bg2')
+
+if(parseInt(gbgPlanos.style.height) > 1) {
+    gradientBG.forEach(elmn => {
+        elmn.style.alignItems = 'flex-end'
+    });
+
+    gradient1.forEach(elmn => {
+        elmn.style.height = '75px'
+    });
+    gradient2.forEach(elmn => {
+        elmn.style.height = '75px'
+    });
+
+} else {
+    gradientBG.forEach(elmn => {
+        elmn.style.alignItems = 'flex-start'
+    });
+}
+
+}
+
+function loopFunction(delay, callback){
+    var loop = function(){
+        callback();
+        setTimeout(loop, delay);
+    }; loop();
+};
+
+loopFunction(1, gradientBG)
 

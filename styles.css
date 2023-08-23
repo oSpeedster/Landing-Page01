@@ -112,11 +112,78 @@ html {
     margin-top: 20px;
 
     font-size: 30px;
+
+    border-radius: 10px;
+
+    background-color: rgba(0, 150, 255, 50%);
+    /* background-color: rgba(218, 165, 32, 40%); */
+
+    color: white;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 90%;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.email-btn {
+    width: 50px;
+    height: 40px;
+
+    margin-left: -80px;
+
+    background-color: darkgoldenrod;
+
+    border-radius: 10px;
+
+    font-size: 27px;
+
+}
+
+.divemailimg {
+    width: 50px;
+    height: 40px;
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/7191/7191998.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .gradient-bg {
     width: 100%;
     height: 0px;
+
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.gradientbg {
+    width: 100%;
+    height: 175px;
+
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.gradient-bg0, .gradient-bg3, .gradient-bg4 {
+    border-top: 1px solid white;
+}
+
+.gradient-bg0 {
+    background-image: linear-gradient(#749BC2, #749BC2);
 }
 
 .gradient-bg1 {
@@ -128,7 +195,11 @@ html {
 }
 
 .gradient-bg3 {
-    background-image: linear-gradient(rgb(108, 98, 204), rgb(53, 21, 93));
+    background-image: linear-gradient(rgb(108, 98, 204), rgb(0, 0, 128));
+}
+
+.gradient-bg4 {
+    background-image: linear-gradient(rgb(0, 0, 128), rgb(53, 21, 93));
 }
 
 .gradient-bg-pag {
@@ -198,7 +269,52 @@ html {
     border-radius: 300px;
 }
 
+.img-div3 {
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+
+    background-image: url(https://img.favpng.com/11/10/23/digital-marketing-background-png-favpng-wzc1sesSu8Wv7QEKdWmN43Wdt.jpg);
+
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 150px;
+    
+}
+
+.img-div4 {
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+
+    background-image: url(https://www.webtrills.in/control/assets/uploads/webtrills_com/service_content/digital-marketing-services.png);
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 50px;
+}
+
+.img-div5 {
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+
+    background-image: url(./assets/suit-people.png);
+    background-size: cover;
+    background-position: right;
+
+    border-radius: 0px;
+}
+
 .tela-div3 {
+    width: 100%;
+    height: 715px;
+
+    background-color: rgb(0, 0, 128);
+}
+
+.tela-div4 {
     width: 100%;
     height: 600px;
 
@@ -255,8 +371,24 @@ html {
     height: 200px;
 
     background-color: rgb(108, 98, 204);
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 10px;
 
     margin: 28px 28px
+}
+
+.tela-venda-img0 {
+    background-image: url(./assets/mkt-banner0.png);
+}
+
+.tela-venda-img1 {
+    background-image: url(./assets/mkt-banner1.png);
+}
+
+.tela-venda-img2 {
+    background-image: url(./assets/mkt-banner2.png);
 }
 
 .tela-venda-txt {
