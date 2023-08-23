@@ -100,6 +100,8 @@ html {
     font-size: 100px;
     color: rgba(184, 134, 11, 90%);
 
+    -webkit-text-stroke: 1px white;
+
     font-family: 'Impact', sans-serif;
 
 }
@@ -140,6 +142,8 @@ html {
     border-radius: 10px;
 
     font-size: 27px;
+
+    color: white;
 
 }
 
@@ -246,7 +250,7 @@ html {
 
 .text-div1-p {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: white;
 }
 
 .tela-div2 {
