@@ -228,10 +228,10 @@ if(parseInt(gbgPlanos.style.height) > 1) {
     });
 
     gradient1.forEach(elmn => {
-        elmn.style.height = '75px'
+        elmn.style.height = '50px'
     });
     gradient2.forEach(elmn => {
-        elmn.style.height = '75px'
+        elmn.style.height = '50px'
     });
 
 } else {
