@@ -513,12 +513,20 @@ html {
         margin: 28px 65px;
     }
 
+    .tela-venda-txt {
+        height: 250px;
+    }
+
     .tela-venda-txt-p {
         font-size: 15px;
     }
 
     .tela-venda-txt-span {
         font-size: 20px;
+    }
+
+    .tela-venda-txt-btn {
+        margin-top: -30px;
     }
 
     .tela-div3 {
