@@ -448,3 +448,74 @@ html {
 
     border-top: 1px solid white;
 }
+
+
+@media(max-width: 768px) {
+
+    .headertxt {
+        font-size: 23px;
+    }
+
+    .tela-img {
+        font-size: 40px;
+    }
+
+    .email {
+        width: 340px;
+        font-size: 20px;
+        margin-left: 25px;
+    }
+
+    .email-btn {
+        margin-left: -70px;
+    }
+
+    ::placeholder {
+        font-size: 23px;
+    }
+
+    .img-div1, .img-div2, .img-div3, .img-div4, .img-div5 {
+        width: 125px;
+        height: 125px;
+    }
+
+    .tela-div {
+        height: 300px;
+    }
+
+    .text-div1 {
+        width: 200px;
+        height: 200px;
+        font-size: 15px;
+    }
+
+    .gradient-bg, .gradientbg {
+        font-size: 23px;
+    }
+
+    .gradientbg {
+        height: 100px;
+    }
+
+    .telas-venda {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 40px;
+    }
+
+    .tela-venda {
+        width: 60%;
+        height: 95%;
+    }
+
+    .tela-venda-img {
+        width: 100px;
+        height: 100px;
+        margin: 28px 65px;
+    }
+
+    .tela-div3 {
+        height: 1200px;
+        align-items: flex-start;
+    }
+
+}
