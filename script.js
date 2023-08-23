@@ -103,3 +103,58 @@ function outA() {
     V.style.transform = ''
     V.style.transition = ''
 }
+
+
+
+////////////////////////////////////////////////////////////////////////
+
+function fundo1() {
+    let fundo = document.querySelectorAll('.gradient-bg')
+    let fundoTodos = document.querySelectorAll('.bg');
+    let divToda = document.querySelector('.divtoda');
+    
+    fundo.forEach(fundo => {
+        fundo.style.height = '0px'
+    });
+
+    divToda.style.backgroundImage = ''
+    fundoTodos.forEach(fundo => {
+        fundo.style.backgroundColor = ''
+      });
+
+}
+
+function fundo2() {
+    let fundo = document.querySelectorAll('.gradient-bg')
+    let fundoTodos = document.querySelectorAll('.bg');
+    let divToda = document.querySelector('.divtoda');
+
+    fundo.forEach(fundo => {
+        fundo.style.height = '175px'
+    });
+
+    divToda.style.backgroundImage = ''
+    fundoTodos.forEach(fundo => {
+        fundo.style.backgroundColor = ''
+      });
+}
+
+function fundo3() {
+    let fundo = document.querySelectorAll('.gradient-bg');
+    let fundoTodos = document.querySelectorAll('.bg');
+    let divToda = document.querySelector('.divtoda');
+
+    fundoTodos.forEach(fundo => {
+        fundo.style.backgroundColor = 'transparent'
+      });
+
+    fundo.forEach(fundo => {
+        fundo.style.height = '0px'
+      });
+
+      divToda.style.backgroundImage = 'linear-gradient(rgb(0, 150, 255), rgb(0, 0, 128))'
+
+}
+
+
+
