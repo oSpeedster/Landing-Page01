@@ -81,6 +81,20 @@ html {
     background-image: linear-gradient(#749BC2, rgb(108, 98, 204));
 }
 
+.gradient-bg2 {
+    width: 100%;
+    height: 175px;
+
+    background-image: linear-gradient(rgb(108, 98, 204), rgb(53, 21, 93));
+}
+
+.gradient-bg3 {
+    width: 100%;
+    height: 175px;
+
+    background-image: linear-gradient(#749BC2, rgb(53, 21, 93));
+}
+
 .tela-div {
     width: 100%;
     height: 400px;
