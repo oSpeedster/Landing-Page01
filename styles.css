@@ -513,6 +513,14 @@ html {
         margin: 28px 65px;
     }
 
+    .tela-venda-txt-p {
+        font-size: 15px;
+    }
+
+    .tela-venda-txt-span {
+        font-size: 20px;
+    }
+
     .tela-div3 {
         height: 1200px;
         align-items: flex-start;
